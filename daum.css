@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+.blind{
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+.head {
+    border: 1px solid #ececec;
+}
+.head .inner_head{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.head .inner_head a{
+    text-decoration: none;
+}
+.head .inner_head h1{
+    width:180px;
+    height:94px;
+    display:inline-block;
+    background-image: url(./img/logo.png);
+    background-size: 180px 94px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    vertical-align: middle;
+}
+
+.head .search{
+    width: 521px;
+    height: 46px;
+    display:inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+/* .head .search form{
+    
+} */
+.head .search fieldset{
+    border: 1px solid #0089ff;
+    border-radius: 1px;
+    width: 521px;
+    height: 46px;
+    display: inline-block;
+    
+}
+.head .search fieldset input{
+    width: 424px;
+    height: 26px;
+    outline: none;
+    border:none;
+}
+.head .search button{
+    border: none;
+}
+.head .search .btn_keyboard{
+    width: 29px;
+    height: 42px;
+    position: absolute;
+    top: 2px;
+    right: 58px;
+    background-image: url(./img/keyboard.png);
+    background-size: 30px 160px;
+    background-position: 0 0;
+}
+.head .search .btn_search{
+    width: 49px;
+    height: 42px;
+    position: absolute;
+    top:2px;
+    right:-1px;
+    background-image: url(./img/searchlogo.png);
+    background-size: 250px 310px;
+    background-position: -40px -231px
+}
