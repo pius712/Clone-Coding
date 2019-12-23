@@ -1,6 +1,25 @@
 * {
     box-sizing: border-box;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Dotum,'돋움',Helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
 .blind{
     position: absolute;
     overflow: hidden;
@@ -15,6 +34,7 @@
 .head .inner_head{
     width: 1080px;
     margin: 0 auto;
+    position: relative;
 }
 
 .head .inner_head a{
@@ -77,4 +97,169 @@
     background-image: url(./img/searchlogo.png);
     background-size: 250px 310px;
     background-position: -40px -231px
+}
+#homepage{
+    position: absolute;
+    top:9px;
+    left: 46px;
+    font-size: 11px;
+    color: #888
+}
+.services{
+    border-bottom: 1px solid gray;
+}
+.services .inner-service{
+    width: 990px;
+    height: 45px;
+    margin: 0 auto;
+
+}
+.services .inner-service .list-menu{
+
+}
+.list-menu li{
+    float:left;
+    height: 45px;
+    /* display:inline-block; */
+    padding: 10px 0;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 5px;
+}
+.list-menu .link-cafe{
+    width: 35px;
+}
+.list-menu .link-mail{
+    width: 36px;
+}
+.list-menu .link-news{
+    width: 37px;
+}
+.list-menu .link-map{
+    width: 36px;
+}
+.list-menu .link-stock{
+    width: 37px;
+}
+.list-menu .link-shop{
+    width: 36px;
+}
+.list-menu .link-kakaotv{
+    width: 64px;
+}
+.list-menu .link-webtoon{
+    width: 37px;
+}
+.list-menu .link-blog{
+    width: 48px;
+}
+.list-menu .link-brunch{
+    width: 47px;
+}
+.container{
+    width: 990px;
+    margin: 15px auto 0;
+    border-bottom: 1px solid #ececec;;
+    overflow:hidden;
+}
+.ad-login{
+    overflow:hidden;
+}
+.ad-area{
+    float:left;
+    width: 655px;
+    height: 120px;
+    margin-right: 35px;
+    background-color: #888;
+}
+.login-area{
+    float:right;
+    width: 300px;
+    height: 120px;
+    background-color:#ececec;
+}
+.login-area .login-inner{
+    height: 78px;
+    padding: 13px 15px 30px;
+    font-size: 13px
+}
+.login-inner .link-daum{
+    display: block;
+    width: 270px;
+    height: 37px;
+    background-color: white;
+    text-align: center;
+    /*position:relative;
+    top: 50%;
+    transform: translate(-50%); */
+    line-height: 30px;
+}
+.login-inner .link-kakao{
+    display: block;
+    width: 270px;
+    height: 37px;
+    margin-top:5px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.news-area{
+    float:left;
+    width: 655px;
+    margin-right: 35px;;
+    background-color: #888;
+
+}
+.news-area .media-section{
+    width: 655px;
+    height: 562px;
+    border-bottom: 1px solid gray;
+}
+
+.news-area .kakao-tv{
+    width: 655px;
+    height: 219px;
+    border-bottom: 1px solid gray;
+    background-color: #0089ff;
+}
+
+.news-area .blog-section{
+    width: 655px;
+    height: 241px;
+}
+.news-area .channel-section{
+    width: 655px;
+    height: 568px;
+    border-bottom:1px solid gray;
+    background-color: aqua;
+}
+.shop-area{
+    float:right;
+    width:300px;;
+    
+
+}
+
+.shop-area .side-ad1{
+    height: 150px;
+    margin-top:15px;
+    border: 1px solid gray;
+}
+
+.shop-area .box-shop{
+    height: 1175px;
+    margin-top:14px;
+    border: 1px solid gray;
+}
+
+.shop-area .side-ad2{
+    height: 60px;
+    margin-top:13px;
+    border: 1px solid gray;
+}
+
+.shop-area .side-ad3{
+    height: 150px;
+    margin-top:13px;
+    border: 1px solid gray;
 }
